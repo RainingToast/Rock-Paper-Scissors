@@ -21,3 +21,6 @@ function getHumanChoice() {
     return console.log(choice);
 }
 getHumanChoice()
+
+let humanScore = 0 ;
+let computerScore = 0 ;
