@@ -9,5 +9,10 @@ function getComputerChoice() {
             case 2: compChoice = "Scissors";
             break;
     }
-    console.log(compChoice);
+    return compChoice;
+}
+
+function getHumanChoice() {
+    let humanChoice = prompt("Rock, Paper or Scissors?", );
+    return humanChoice;
 }
